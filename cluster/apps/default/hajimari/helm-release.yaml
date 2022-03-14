@@ -38,7 +38,9 @@ spec:
       #   - name: Some External Cluster Service
       #     url: http://192.168.1.100:5000
       #     icon: test-tube
-      # groups:
+      groups:
+        - name: apps
+        - name: non-apps
       #   - name: Communicate
       #     links:
       #       - name: Discord
