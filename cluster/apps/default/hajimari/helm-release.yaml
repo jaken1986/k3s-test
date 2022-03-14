@@ -30,9 +30,9 @@ spec:
       defaultEnable: false
       title: Welcome
       instanceName: Welcome
-      # namespaceSelector:
-      #   matchNames:
-      #     - default
+      namespaceSelector:
+        matchNames:
+          - default
           # - networking
       # name: "you"
       # customApps:
