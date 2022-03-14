@@ -32,14 +32,13 @@ spec:
       namespaceSelector:
         matchNames:
           - default
-          - networking
+          # - networking
       # name: "you"
       # customApps:
       #   - name: Some External Cluster Service
       #     url: http://192.168.1.100:5000
       #     icon: test-tube
-      groups:
-        - name: Welcome
+      # groups:
       #   - name: Communicate
       #     links:
       #       - name: Discord
