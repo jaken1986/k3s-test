@@ -27,7 +27,7 @@ spec:
       repository: docker.io/ealen/echo-server
       tag: 0.5.1
     ingress:
-      enabled: false
+      enabled: true
       annotations:
           cert-manager.io/cluster-issuer: "letsencrypt-staging"
           hajimari.io/enable: "true"
